@@ -8,30 +8,7 @@ class Consumer:
     def __init__(self, topic, bootstrap_servers):
         self.topic = topic
         self.bootstrap_servers = bootstrap_servers
-    """
-    def filter_records(self, data):
-        now = datetime.utcnow()
-        records = data.get("records", [])
-        filtered_records = [record for record in records
-                            if datetime.fromisoformat(record.get('Minutes1UTC')) >= now - timedelta(minutes=6)]
-        return filtered_records
 
-    def records_to_df(self, filtered_records):
-        rows = []
-        for record in filtered_records:
-            timestamp = datetime.fromisoformat((record["Minutes1UTC"]))
-            co2_emission = record["CO2Emission"]
-            production_ge100mw = record["ProductionGe100MW"]
-            production_lt100mw = record["ProductionLt100MW"]
-            solar_power = record["SolarPower"]
-            offshore_wind_power = record["OffshoreWindPower"]
-            onshore_wind_power = record["OnshoreWindPower"]
-            exchange_sum = record["Exchange_Sum"]
-            rows.append({"Timestamp": timestamp, "CO2Emission": co2_emission, "ProductionGe100MW": production_ge100mw, "ProductionLt100MW": production_lt100mw, "SolarPower": solar_power, "OffshoreWindPower": offshore_wind_power, "OnshoreWindPower": onshore_wind_power, "ExchangeSum": exchange_sum})
-        
-        df = pd.DataFrame(rows)
-        return df
-    """
     def consume_and_print_df(self):
         consumer = KafkaConsumer(self.topic,
                                  bootstrap_servers=self.bootstrap_servers,

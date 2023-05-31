@@ -16,7 +16,6 @@ logging.basicConfig(
     filemode='a'
 )
 
-
 class Producer:
     def __init__(self, url, topic, bootstrap_servers):
         self.url = url
@@ -32,36 +31,6 @@ class Producer:
         producer.send(self.topic, value=data)
         producer.flush()
         self.logger.info(f"Produced data to Kafka topic {self.topic}")
-    """"
-    def records_to_df(self, filtered_records):
-        rows = []
-        for record in filtered_records:
-            timestamp = datetime.fromisoformat(record["Minutes1UTC"])
-            co2_emission = record["CO2Emission"]
-            production_ge100mw = record["ProductionGe100MW"]
-            production_lt100mw = record["ProductionLt100MW"]
-            solar_power = record["SolarPower"]
-            offshore_wind_power = record["OffshoreWindPower"]
-            onshore_wind_power = record["OnshoreWindPower"]
-            exchange_sum = record["Exchange_Sum"]
-            
-            # Perform aggregation
-            aggregated_values = {
-                "Timestamp": timestamp,
-                "CO2Emission": sum(co2_emission),
-                "ProductionGe100MW": sum(production_ge100mw),
-                "ProductionLt100MW": sum(production_lt100mw),
-                "SolarPower": sum(solar_power),
-                "OffshoreWindPower": sum(offshore_wind_power),
-                "OnshoreWindPower": sum(onshore_wind_power),
-                "ExchangeSum": sum(exchange_sum)
-            }
-            
-            rows.append(aggregated_values)
-        
-        df = pd.DataFrame(rows)
-        return df
-    """
     
     def main(self):
         while True:
