@@ -1,88 +1,295 @@
-2023-05-31 19:36:34,946 INFO START
-2023-05-31 19:36:35,182 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:36:35,182 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:36:35,183 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:36:35,285 INFO Broker version identified as 2.3.0
-2023-05-31 19:36:35,285 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:36:35,290 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:36:35,290 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:36:35,291 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:36:35,310 INFO Produced data to Kafka topic power_system
-2023-05-31 19:36:35,310 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:36:44,725 INFO START
-2023-05-31 19:36:45,063 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:36:45,063 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:36:45,064 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:36:45,166 INFO Broker version identified as 2.3.0
-2023-05-31 19:36:45,166 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:36:45,171 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:36:45,171 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:36:45,171 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:36:45,191 INFO Produced data to Kafka topic power_system
-2023-05-31 19:36:45,191 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:37:35,366 INFO START
-2023-05-31 19:37:35,718 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:37:35,718 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:37:35,718 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:37:35,820 INFO Broker version identified as 2.3.0
-2023-05-31 19:37:35,820 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:37:35,825 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:37:35,826 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:37:35,826 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:37:35,845 INFO Produced data to Kafka topic power_system
-2023-05-31 19:37:35,846 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:37:45,292 INFO START
-2023-05-31 19:37:45,650 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:37:45,650 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:37:45,650 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:37:45,753 INFO Broker version identified as 2.3.0
-2023-05-31 19:37:45,753 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:37:45,757 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:37:45,758 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:37:45,758 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:37:45,777 INFO Produced data to Kafka topic power_system
-2023-05-31 19:37:45,777 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:38:35,876 INFO START
-2023-05-31 19:38:36,518 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:38:36,519 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:38:36,519 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:38:36,621 INFO Broker version identified as 2.3.0
-2023-05-31 19:38:36,621 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:38:36,628 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:38:36,628 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:38:36,628 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:38:36,652 INFO Produced data to Kafka topic power_system
-2023-05-31 19:38:36,653 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:38:45,878 INFO START
-2023-05-31 19:38:46,209 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:38:46,209 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:38:46,209 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:38:46,311 INFO Broker version identified as 2.3.0
-2023-05-31 19:38:46,311 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:38:46,316 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:38:46,316 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:38:46,316 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:38:46,336 INFO Produced data to Kafka topic power_system
-2023-05-31 19:38:46,336 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:39:36,711 INFO START
-2023-05-31 19:39:36,942 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:39:36,943 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:39:36,943 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:39:37,045 INFO Broker version identified as 2.3.0
-2023-05-31 19:39:37,045 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:39:37,050 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:39:37,050 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:39:37,050 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:39:37,070 INFO Produced data to Kafka topic power_system
-2023-05-31 19:39:37,070 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:39:46,420 INFO START
-2023-05-31 19:39:46,765 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:39:46,766 INFO Probing node bootstrap-0 broker version
-2023-05-31 19:39:46,766 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:39:46,868 INFO Broker version identified as 2.3.0
-2023-05-31 19:39:46,868 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
-2023-05-31 19:39:46,873 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
-2023-05-31 19:39:46,874 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
-2023-05-31 19:39:46,874 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
-2023-05-31 19:39:46,893 INFO Produced data to Kafka topic power_system
-2023-05-31 19:39:46,894 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:30:47,040 INFO START
+2023-06-01 00:30:47,393 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:30:47,393 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:30:47,394 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:30:47,496 INFO Broker version identified as 2.3.0
+2023-06-01 00:30:47,497 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:30:47,502 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:30:47,502 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:30:47,502 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:31:47,599 INFO Produced data to Kafka topic power_system
+2023-06-01 00:31:47,600 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:31:47,600 INFO START
+2023-06-01 00:31:47,942 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:31:47,942 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:31:47,942 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:31:48,044 INFO Broker version identified as 2.3.0
+2023-06-01 00:31:48,044 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:31:48,049 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:31:48,050 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:31:48,050 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:32:48,083 INFO Produced data to Kafka topic power_system
+2023-06-01 00:32:48,083 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:32:48,084 INFO START
+2023-06-01 00:32:48,408 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:32:48,409 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:32:48,409 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:32:48,511 INFO Broker version identified as 2.3.0
+2023-06-01 00:32:48,511 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:32:48,517 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:32:48,517 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:32:48,517 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:33:48,603 INFO Produced data to Kafka topic power_system
+2023-06-01 00:33:48,604 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:33:48,604 INFO START
+2023-06-01 00:33:48,932 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:33:48,932 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:33:48,932 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:33:49,034 INFO Broker version identified as 2.3.0
+2023-06-01 00:33:49,034 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:33:49,039 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:33:49,039 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:33:49,039 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:34:49,055 INFO Produced data to Kafka topic power_system
+2023-06-01 00:34:49,056 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:34:49,056 INFO START
+2023-06-01 00:34:49,367 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:34:49,367 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:34:49,367 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:34:49,469 INFO Broker version identified as 2.3.0
+2023-06-01 00:34:49,469 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:34:49,474 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:34:49,475 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:34:49,475 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:35:49,559 INFO Produced data to Kafka topic power_system
+2023-06-01 00:35:49,560 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:35:49,560 INFO START
+2023-06-01 00:35:49,933 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:35:49,933 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:35:49,934 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:35:50,036 INFO Broker version identified as 2.3.0
+2023-06-01 00:35:50,036 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:35:50,041 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:35:50,041 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:35:50,041 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:36:50,139 INFO Produced data to Kafka topic power_system
+2023-06-01 00:36:50,139 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:36:50,140 INFO START
+2023-06-01 00:36:50,453 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:36:50,453 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:36:50,454 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:36:50,556 INFO Broker version identified as 2.3.0
+2023-06-01 00:36:50,556 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:36:50,561 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:36:50,561 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:36:50,561 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:37:50,659 INFO Produced data to Kafka topic power_system
+2023-06-01 00:37:50,659 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:37:50,660 INFO START
+2023-06-01 00:37:51,088 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:37:51,088 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:37:51,089 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:37:51,191 INFO Broker version identified as 2.3.0
+2023-06-01 00:37:51,191 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:37:51,197 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:37:51,197 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:37:51,197 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:38:51,295 INFO Produced data to Kafka topic power_system
+2023-06-01 00:38:51,295 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:38:51,296 INFO START
+2023-06-01 00:38:51,599 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:38:51,599 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:38:51,599 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:38:51,701 INFO Broker version identified as 2.3.0
+2023-06-01 00:38:51,701 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:38:51,714 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:38:51,714 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:38:51,715 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:39:51,806 INFO Produced data to Kafka topic power_system
+2023-06-01 00:39:51,807 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:39:51,808 INFO START
+2023-06-01 00:39:52,126 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:39:52,126 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:39:52,126 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:39:52,228 INFO Broker version identified as 2.3.0
+2023-06-01 00:39:52,229 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:39:52,233 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:39:52,234 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:39:52,234 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:40:52,303 INFO Produced data to Kafka topic power_system
+2023-06-01 00:40:52,304 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:40:52,305 INFO START
+2023-06-01 00:40:52,613 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:40:52,613 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:40:52,614 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:40:52,716 INFO Broker version identified as 2.3.0
+2023-06-01 00:40:52,716 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:40:52,721 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:40:52,721 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:40:52,721 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:41:52,812 INFO Produced data to Kafka topic power_system
+2023-06-01 00:41:52,812 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:41:52,813 INFO START
+2023-06-01 00:41:53,141 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:41:53,141 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:41:53,141 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:41:53,243 INFO Broker version identified as 2.3.0
+2023-06-01 00:41:53,244 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:41:53,249 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:41:53,249 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:41:53,249 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:42:53,349 INFO Produced data to Kafka topic power_system
+2023-06-01 00:42:53,349 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:42:53,350 INFO START
+2023-06-01 00:42:53,883 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:42:53,883 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:42:53,883 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:42:53,985 INFO Broker version identified as 2.3.0
+2023-06-01 00:42:53,985 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:42:53,990 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:42:53,990 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:42:53,990 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:43:54,080 INFO Produced data to Kafka topic power_system
+2023-06-01 00:43:54,081 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:43:54,082 INFO START
+2023-06-01 00:43:54,599 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:43:54,599 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:43:54,599 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:43:54,701 INFO Broker version identified as 2.3.0
+2023-06-01 00:43:54,702 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:43:54,706 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:43:54,707 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:43:54,707 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:44:54,803 INFO Produced data to Kafka topic power_system
+2023-06-01 00:44:54,804 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:44:54,804 INFO START
+2023-06-01 00:44:55,165 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:44:55,166 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:44:55,166 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:44:55,268 INFO Broker version identified as 2.3.0
+2023-06-01 00:44:55,268 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:44:55,273 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:44:55,274 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:44:55,274 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:45:55,371 INFO Produced data to Kafka topic power_system
+2023-06-01 00:45:55,372 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:45:55,372 INFO START
+2023-06-01 00:45:55,684 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:45:55,685 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:45:55,685 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:45:55,787 INFO Broker version identified as 2.3.0
+2023-06-01 00:45:55,787 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:45:55,792 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:45:55,792 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:45:55,793 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:46:55,891 INFO Produced data to Kafka topic power_system
+2023-06-01 00:46:55,891 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:46:55,892 INFO START
+2023-06-01 00:46:56,242 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:46:56,242 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:46:56,243 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:46:56,345 INFO Broker version identified as 2.3.0
+2023-06-01 00:46:56,345 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:46:56,350 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:46:56,350 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:46:56,350 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:47:56,447 INFO Produced data to Kafka topic power_system
+2023-06-01 00:47:56,447 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:47:56,448 INFO START
+2023-06-01 00:47:56,751 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:47:56,752 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:47:56,752 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:47:56,854 INFO Broker version identified as 2.3.0
+2023-06-01 00:47:56,854 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:47:56,860 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:47:56,860 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:47:56,860 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:48:56,959 INFO Produced data to Kafka topic power_system
+2023-06-01 00:48:56,960 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:48:56,960 INFO START
+2023-06-01 00:48:57,279 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:48:57,279 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:48:57,279 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:48:57,381 INFO Broker version identified as 2.3.0
+2023-06-01 00:48:57,381 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:48:57,386 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:48:57,387 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:48:57,387 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:49:57,483 INFO Produced data to Kafka topic power_system
+2023-06-01 00:49:57,484 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:49:57,484 INFO START
+2023-06-01 00:49:58,383 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:49:58,383 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:49:58,383 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:49:58,485 INFO Broker version identified as 2.3.0
+2023-06-01 00:49:58,486 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:49:58,490 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:49:58,490 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:49:58,491 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:50:58,571 INFO Produced data to Kafka topic power_system
+2023-06-01 00:50:58,572 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:50:58,573 INFO START
+2023-06-01 00:50:58,878 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:50:58,878 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:50:58,879 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:50:58,980 INFO Broker version identified as 2.3.0
+2023-06-01 00:50:58,981 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:50:58,986 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:50:58,986 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:50:58,986 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:51:59,072 INFO Produced data to Kafka topic power_system
+2023-06-01 00:51:59,073 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:51:59,073 INFO START
+2023-06-01 00:51:59,422 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:51:59,423 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:51:59,423 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:51:59,525 INFO Broker version identified as 2.3.0
+2023-06-01 00:51:59,525 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:51:59,530 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:51:59,530 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:51:59,531 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:52:59,630 INFO Produced data to Kafka topic power_system
+2023-06-01 00:52:59,630 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:52:59,631 INFO START
+2023-06-01 00:52:59,949 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:52:59,949 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:52:59,950 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:53:00,052 INFO Broker version identified as 2.3.0
+2023-06-01 00:53:00,052 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:53:00,057 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:53:00,057 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:53:00,057 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:54:00,155 INFO Produced data to Kafka topic power_system
+2023-06-01 00:54:00,156 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:54:00,156 INFO START
+2023-06-01 00:54:00,488 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:54:00,488 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:54:00,488 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:54:00,590 INFO Broker version identified as 2.3.0
+2023-06-01 00:54:00,591 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:54:00,595 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:54:00,595 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:54:00,596 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:55:00,695 INFO Produced data to Kafka topic power_system
+2023-06-01 00:55:00,696 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:55:00,696 INFO START
+2023-06-01 00:55:01,012 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:55:01,013 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:55:01,013 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:55:01,115 INFO Broker version identified as 2.3.0
+2023-06-01 00:55:01,115 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:55:01,120 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:55:01,120 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:55:01,121 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:56:01,219 INFO Produced data to Kafka topic power_system
+2023-06-01 00:56:01,220 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:56:01,220 INFO START
+2023-06-01 00:56:01,558 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:56:01,559 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:56:01,559 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:56:01,662 INFO Broker version identified as 2.3.0
+2023-06-01 00:56:01,662 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:56:01,669 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:56:01,669 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:56:01,669 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:57:01,767 INFO Produced data to Kafka topic power_system
+2023-06-01 00:57:01,768 INFO <BrokerConnection node_id=1 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
+2023-06-01 00:57:01,768 INFO START
+2023-06-01 00:57:02,080 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:57:02,080 INFO Probing node bootstrap-0 broker version
+2023-06-01 00:57:02,080 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:57:02,182 INFO Broker version identified as 2.3.0
+2023-06-01 00:57:02,182 INFO Set configuration api_version=(2, 3, 0) to skip auto check_version requests on startup
+2023-06-01 00:57:02,187 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: connecting to localhost:29092 [('127.0.0.1', 29092) IPv4]
+2023-06-01 00:57:02,187 INFO <BrokerConnection node_id=1 host=localhost:29092 <connecting> [IPv4 ('127.0.0.1', 29092)]>: Connection complete.
+2023-06-01 00:57:02,188 INFO <BrokerConnection node_id=bootstrap-0 host=localhost:29092 <connected> [IPv4 ('127.0.0.1', 29092)]>: Closing connection. 
