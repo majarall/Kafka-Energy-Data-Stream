@@ -23,7 +23,7 @@ The system consists of the following components:
 3.  consumer.py: A module that contains the `Consumer` class for consuming and processing data from the Kafka broker.
 4.  config.py: A configuration file that stores Kafka broker settings and other system configurations.
 5.  utils.py: Utility functions used within the system, such as fetching data from the API and logging.
-6.  requirements.txt (need to add??): A file that lists the required Python dependencies for the system.
+6.  requirements.txt (need to add??): 
 
 ## How to run the system
 
