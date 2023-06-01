@@ -39,9 +39,7 @@ To run the power system data processing system, follow these steps:
 The system will start fetching data from the external API, process it, and publish the processed data to the Kafka broker. The processed data can be consumed or further analyzed by other components or applications.
 
 
-## Customization for furthur downstream tasks
 
-The system can be customized to fit your specific requirements. You can modify the data processing logic in the `DataProcessor` class, adjust the Kafka broker settings, or extend the system functionality as needed.
 
 
 
