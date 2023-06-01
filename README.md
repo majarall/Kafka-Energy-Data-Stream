@@ -1,6 +1,6 @@
 # api_energydataservice.dk
 
-# Power System Data Processing System
+# Event Based Data Processing System
 
 This is a data processing system that fetches power system data from an external API, performs data filtering, conversion, and aggregation, and then publishes the processed data to a Kafka broker for further consumption or analysis.
 
