@@ -1,0 +1,7 @@
+faust==1.10.4
+faust_streaming==0.10.13
+influxdb==5.3.1
+kafka_python==2.0.2
+pandas==2.0.2
+Requests==2.31.0
+tabulate==0.9.0
