@@ -24,7 +24,7 @@ The system consists of the following components:
 4.  config.py: A configuration file that stores Kafka broker settings and other system configurations.
 5.  utils.py: Utility functions used within the system, such as fetching data from the API and logging.
 6.  docker-compose.yml: To run the Kafka broker container and Zookeeper container
-7.  requirements.txt (need to add??): 
+7.  requirements.txt: All necessary libraries  
 
 ## How to run the system
 
