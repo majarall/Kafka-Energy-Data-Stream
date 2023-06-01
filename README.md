@@ -33,9 +33,10 @@ To run the power system data processing system, follow these steps:
 2. Configure the Kafka broker settings and other system configurations in the `config.py` file.
    Start the kafka broker and the Zookeeper: docker-compose up -d
 3. Run the producer.py: nohup python producer.py > producer.log &
+4. Run the consumer.py: python consumer.py
 
 The system will start fetching data from the external API, process it, and publish the processed data to the Kafka broker. The processed data can be consumed or further analyzed by other components or applications.
-4. Run the consumer.py: python consumer.py
+
 
 ## Customization for furthur downstream tasks
 
