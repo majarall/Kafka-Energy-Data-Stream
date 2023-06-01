@@ -11,6 +11,7 @@ This is a data processing system that fetches power system data from an external
 - Converts the filtered data into a structured format (DataFrame).
 - Performs data aggregation on selected fields.
 - Publishes the processed data to a Kafka broker for further consumption.
+- Provides a consumer module to consume and process the data from the Kafka broker for furthur downstream tasks.
 
 ## System Components
 
@@ -19,9 +20,10 @@ The system consists of the following components:
 
 1.  utils.py: A module that contains the `DataProcessor` class responsible for data filtering, conversion, and aggregation.
 2.  producer.py: A module that contains the `KafkaProducer` class for publishing the processed data to a Kafka broker.
-3.  config.py: A configuration file that stores Kafka broker settings and other system configurations.
-4.  utils.py: Utility functions used within the system, such as fetching data from the API and logging.
-5.  requirements.txt (need to add??): A file that lists the required Python dependencies for the system.
+3.  consumer.py: A module that contains the `Consumer` class for consuming and processing data from the Kafka broker.
+4.  config.py: A configuration file that stores Kafka broker settings and other system configurations.
+5.  utils.py: Utility functions used within the system, such as fetching data from the API and logging.
+6.  requirements.txt (need to add??): A file that lists the required Python dependencies for the system.
 
 ## How to run the system
 
